@@ -1,0 +1,67 @@
+h1{ color: #1E64C8  ;}
+h2{ color: #1E64C8  ;}
+h3{ color: #1E64C8  ;}
+h4{ color: #1E64C8  ;}
+h5{ color: #1E64C8  ;}
+h6{ color: #1E64C8  ;}
+h7{ color: #1E64C8  ;}
+h8{ color: #1E64C8  ;}
+h9{ color: #1E64C8  ;}
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    background-color:#FFD200; 
+}
+header {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+mark {
+    text-decoration: underline;
+}
+table img {
+    height: 60px;
+}
+table td {
+    text-align: center;
+}
+header img {
+    height: 150px;
+}
+header figure {
+    float: right;
+    border: 3px double black;
+}
+main {
+    overflow: hidden;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 3px solid black;
+}
+footer {
+    background-color: #FFD200; 
+}
+body > footer {
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+fieldset {
+    border: 2px solid #1E64C8; 
+    margin-bottom: 30px;
+}
+legend {
+    color:#1E64C8; 
+}
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+textarea {
+    width: 100%;
+}

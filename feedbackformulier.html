@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+  
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Formulier</title>
+  <!-- Voeg de link naar Bootstrap's CSS-bestand toe -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Voeg de link naar jouw eigen CSS-bestand toe -->
+  <link href="ugent.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  Manti van Mehmet Bas
+  <header>
+    <nav>
+      navigatie menu
+      <ul>
+        <li><a href="index.html"> Huidige pagina</a></li>
+        <li><a href="feedbackformulier.html">Feedbackformulier</a></li>
+      </ul>
+        </nav>
+  </header>
+<h1>Manti van Mehmet Bas</h1>
+
+<a href="https://www.nefisyemektarifleri.com/manti-tarifi/">
+<figure><img alt="Manti" src="media/manti.jpg" title="Manti" class="rounded-circle">
+  <figcaption>Manti</figcaption>
+</figure>
+</a>
+
+<main>
+    <section>
+        <h3>
+            Persoonlijke gegevens en feedback
+        </h3>
+        
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <div class="row">
+  <div class="col">
+      <input type="text" class="form-control" placeholder="Voornaam">
+  </div>
+  <div class="col">
+      <input type="text" class="form-control" placeholder="Naam">
+  </div>
+</div>
+                <label for="Man">Man:</label>
+                <input id="Man" name="geslacht" type="radio" value="M">
+                <label for="Vrouw">Vrouw:</label>
+                <input id="Vrouw" name="geslacht" type="radio" value="V">
+                <label for="Andere">Andere:</label>
+                <input id="Andere" name="geslacht" type="text" placeholder="Andere"><br>
+                <label for="Tijd">Tijd van invullen:</label>
+                <input id="Tijd" name="Tijd" type="datetime-local"><br>
+                <div class="form-group">
+                  <label for="Email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="Email" placeholder="Uw email adres">
+                </div>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Switch</label>
+                </div>
+              
+                
+Smaack
+404-foutpagina | Smaack
+required><br>
+                Land van herkomst
+                <select name="Land" id="name">
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="FR">Frankrijk</option>
+                    <option value="DL">Duitsland</option>
+                    <option value="BE">België</option>
+                    <option value="TR">Turkije</option>
+                    <option value="CH">China</option>
+                </select>
+                <label for="l_ander">, Land niet beschikbaar</label>
+                <textarea name="l_ander" id="l_ander" cols="20" rows="10"
+                    placeholder="Typ hier uw land indien deze niet word vermeld"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Feedback</legend>
+                Heeft u het gebak klaargemaakt?
+                <label for="Ja">Ja</label>
+                <input id="Ja" name="gemaakt" type="checkbox">
+                <label for="Nee">Nee</label>
+                <input id="Nee" name="gemaakt" type="checkbox"><br>
+                <label for="tips">Tips om het beter te maken</label>
+                <textarea name="tips" id="tips" cols="50" rows="20" placeholder="Typ hier uw feedback"
+                    required></textarea>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Verzenden</button>
+            <button type="reset" class="btn btn-secondary">Resetten</button>
+            
+      
+    </section>
+</main>
+
+
+<footer>
+    <p> Mehmet Bas, tijd en datum van dit neer te schrijven: <time datetime="2024-03-17T23:42">17 maart
+            2024 om 23:42</time>
+    </p>
+</footer>
+
+
+
+
+</body>
